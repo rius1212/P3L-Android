@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.atmaauto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Laporan"></activity>
+        <activity android:name=".Model.Detil_Riwayat" />
+        <activity android:name=".List.List_Riwayat" />
+        <activity android:name=".Riwayat" />
+        <activity android:name=".Informasi_Bengkel" />
+        <activity android:name=".List.List_Pengadaan" />
+        <activity android:name=".Model.Detil_Pengadaan" />
+        <activity android:name=".Pengadaan" />
+        <activity android:name=".Sparepart" />
+        <activity android:name=".Model.Detil_Sparepart" />
+        <activity android:name=".Model.Detil_Sales" />
+        <activity android:name=".Sales" />
+        <activity
+            android:name=".Home"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".Model.Detil_Supplier" />
+        <activity android:name=".Supplier" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".SplashAuto"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Laporan">
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtLaporan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laporan Sparepart Terlaris"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtLaporan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laporan Pendapatan Bulanan"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtLaporan3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laporan Tahunan"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtLaporan4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laporan Pengeluaran Bulanan"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtLaporan5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laporan Penjualan Jasa"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtLaporan6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laporan Sisa Stok"/>
+
+
+
+</LinearLayout>
